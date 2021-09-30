@@ -1,5 +1,8 @@
 # jem-vue-lib 组件库
 
+## 文档地址: 
+https://skura23.github.io/styleguidist-vuecli3-demo/
+
 ## 使用:
 
 ```
