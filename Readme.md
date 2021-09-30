@@ -7,6 +7,11 @@ https://skura23.github.io/styleguidist-vuecli3-demo/
 
 ```
 npm install jem-vue-lib --registry=https://registry.npm.taobao.org
+
+// App.vue下
+import 'jem-vue-lib/lib/jem-vue-lib.css'
+import JemVueLib from 'jem-vue-lib';
+Vue.use(JemVueLib);
 ```
 
 
