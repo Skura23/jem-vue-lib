@@ -13,7 +13,7 @@ module.exports = {
 		text: 'Back to examples',
 		url: `${docSiteUrl}/Examples.html`
 	},
-	styleguideDir: 'dist',
+	styleguideDir: 'docs',
 	// sections: [
 	//   {
 	//     name: 'First Section',
