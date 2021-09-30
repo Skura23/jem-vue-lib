@@ -1,11 +1,11 @@
 {
-	"name": "vue-styleguidist-example-vuecli3",
-	"version": "4.0.0",
-	"description": "When using vue cli 3, prefer using the plugin using `vue add styleguidist`",
-	"private": true,
+	"name": "jem-vue-lib",
+	"version": "0.0.2",
+	"description": "Jem vue business components library",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
+		"lib": "vue-cli-service build --target lib --name jem-vue-lib --dest lib packages/index.js",
 		"styleguide": "vue-cli-service styleguidist",
 		"styleguide:build": "cross-env NODE_ENV=production vue-cli-service styleguidist:build"
 	},
@@ -16,10 +16,12 @@
 		"@vue/babel-preset-app": "^4.5.12",
 		"@vue/cli-plugin-babel": "^4.5.12",
 		"@vue/cli-service": "^4.5.12",
+		"cross-env": "^7.0.3",
+		"node-sass": "^6.0.1",
+		"sass-loader": "^10.2.0",
 		"vue-cli-plugin-styleguidist": "^4.36.1",
 		"vue-template-compiler": "^2.6.14",
-		"webpack-bundle-analyzer": "^3.9.0",
-		"cross-env": "^7.0.3"
+		"webpack-bundle-analyzer": "^3.9.0"
 	},
 	"postcss": {
 		"plugins": {
@@ -30,5 +32,13 @@
 		"> 1%",
 		"last 2 versions",
 		"not ie <= 8"
-	]
+	],
+	"homepage":"",
+	"main": "lib/jem-vue-lib.umd.min.js",
+  "browser": "lib/jem-vue-lib.esm.js",
+  "module": "lib/jem-vue-lib.esm.js",
+  "unpkg": "lib/jem-vue-lib.min.js",
+  "files": [
+    "lib/*"
+  ]
 }

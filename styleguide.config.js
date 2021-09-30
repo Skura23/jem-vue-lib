@@ -5,9 +5,10 @@ const docSiteUrl = process.env.DEPLOY_PRIME_URL || 'https://vue-styleguidist.git
 /** @type import("vue-styleguidist").Config */
 module.exports = {
 	// set your styleguidist configuration here
-	title: 'Default Style Guide',
+	title: 'jem前端组件库',
 	defaultExample: true,
-	components: 'src/components/**/[A-Z]*.vue',
+	// components: 'src/components/**/[A-Z]*.vue',
+	components: 'packages/**/src/index.vue',
 	ribbon: {
 		text: 'Back to examples',
 		url: `${docSiteUrl}/Examples.html`
