@@ -1,3 +1,11 @@
+<!--
+ * @Author: zxx
+ * @Date: 2021-09-30 10:56:10
+ * @LastEditors: zxx
+ * @LastEditTime: 2021-12-09 14:02:30
+ * @FilePath: \styleguidist-vuecli3-demo\packages\Button\src\index.vue
+ * @Description: some description
+-->
 <template>
   <div class="x-button">
     <slot></slot>
@@ -21,3 +29,4 @@ export default {
       color: #fff;
   }
 </style>
+

@@ -1,7 +1,17 @@
+<!--
+ * @Author: zxx
+ * @Date: 2021-09-30 09:01:37
+ * @LastEditors: zxx
+ * @LastEditTime: 2021-12-09 15:32:54
+ * @FilePath: \styleguidist-vuecli3-demo\Readme.md
+ * @Description: some description
+-->
 # jem-vue-lib 组件库
 
 ## 文档地址: 
 https://skura23.github.io/styleguidist-vuecli3-demo/
+
+包含组件: 中文车牌号组件
 
 ## 使用:
 
@@ -19,17 +29,9 @@ Vue.use(JemVueLib);
 
 ```
 git clone git@github.com:Skura23/styleguidist-vuecli3-demo.git
+
 npm i
-```
-### Compiles and hot-reloads for development
 
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
 ```
 

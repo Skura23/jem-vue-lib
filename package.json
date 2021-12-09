@@ -1,7 +1,17 @@
 {
 	"name": "jem-vue-lib",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Jem vue business components library",
+	"keywords": [
+    "component",
+    "components",
+    "framework",
+    "frontend",
+    "vue",
+    "vue-component",
+    "car-plate",
+    "车牌号"
+  ],
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
