@@ -9,7 +9,7 @@
 # jem-vue-lib 组件库
 
 ## 文档地址: 
-https://skura23.github.io/styleguidist-vuecli3-demo/
+https://skura23.github.io/jem-vue-lib/
 
 包含组件: 中文车牌号组件
 
